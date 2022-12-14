@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - check the code for cohort 11 students
+ * print_alphabet - print all alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
 {
-	int ch;
+	char c;
 
-	print_alphabet(ch);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
 	_putchar('\n');
-	return (0);
 }
